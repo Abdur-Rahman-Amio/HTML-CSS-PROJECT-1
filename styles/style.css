@@ -17,15 +17,20 @@ h1,h2,h3,h4,h5,h6,a,p,ul,li{
     float: left;
     color: rgb(22, 189, 189);
 }
+.logo span b{
+    color: white;
+    transition: 2s;
+}
+.logo span b:hover{
+    color: rgb(103, 28, 224);
+    
+}
 nav ul{
-    margin: 0px;
-    padding: 0px;
-    display: flex;
     float: right;
+    margin-top: 20px;
 }
 nav ul li{
     text-align: right;
-    list-style: none;
     padding: 8px;
     position: relative;
     margin-top: 10px;
@@ -34,31 +39,105 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color:white;
-    transition: 2s;
-    border-radius: 12px;
-    padding: 6px;
+    transition: 3s;
+    padding: 10px;
     
 }
-nav ul li a:hover{
-    background-color:rgb(193, 240, 22) ;
-    color: black;
+ nav ul li a:hover{
+    
+    color: rgba(182, 141, 4, 0.863);
 }
- nav ul li ul{
+
+nav>ul>li>ul>li{
+    
+    width: 114px;
+    text-align: left;
+    margin-bottom: 2px;
+
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    list-style: none;
+    border-radius: 4px;
+    background: rgb(0, 140, 255);
+    
+
+}
+nav ul li ul{
     position: absolute;
     display: none;
-    border: 1px solid green;
-    border-radius: 18px;
-    background-color: aqua;
-    margin-top: 11px;
+    margin-top: 2px;
+    transition: 10s;
     
-}
-nav ul li ul li{
-    padding: px;
-    width: 114px;
-    padding-right: 6px;
-    color: black;
-
 }
 nav ul li:hover .mega-menu{
     display:block;
 } 
+
+#About-protfolio{
+    float: left;
+    margin-left: 350px;
+}
+#About-protfolio h2{
+    margin-top: 45px;
+    font-size: 40px;
+    margin-left: 50px;
+    color: rgb(109, 109,109);
+}
+#About-protfolio h3{
+    margin-top: 34px;
+    margin-left: 38px;
+    font-size: 25px;
+}
+#About-protfolio ul{
+    margin-top: 20px;
+    margin-left: 65px;
+}
+#About-protfolio ul li{
+    color: rgb(145, 163, 137);
+}
+.image2 img{
+    margin-top: 150px;
+    float: left;
+    height: 250px;
+    margin-left: 465px;
+}
+.About-me h5{
+    margin-top: 180px;
+    margin-left: 675px;
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.About-me p{
+    margin-left: 675px;
+    color:rgb(148,158,143);
+    text-transform: capitalize;
+}
+.what-i-do h3{
+    margin-top: 100px;
+    margin-left:265px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#boxes{
+    margin-left: 280px;
+}
+.box{
+    float: left;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 25px;
+    margin-top: 20px;
+    margin: 7px;
+    
+}
+.box h3{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.box p{
+    color: rgb(148,158,143);
+}
